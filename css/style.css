@@ -22,7 +22,7 @@ ul {
 li {
     background: tan;
     align-items: center;
-    border-right: 1px solid wheat;
+    border-right: 3px solid wheat;
 }
 
 li:hover {
@@ -33,10 +33,26 @@ figure {
     margin: 0;
 }
 
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    background: aqua;
+}
+
 ul li a {
     text-decoration: none;
     color: white;
     display: block;
     margin: 5px 10px;
+    padding: 5px;
+}
+
+footer {
+    background: wheat;
+    height: 50px;
     padding: 5px;
 }
