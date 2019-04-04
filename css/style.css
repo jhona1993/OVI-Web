@@ -37,10 +37,19 @@ section {
     height: 80vh;
     display: flex;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: -2px 4px 2px gray;
+}
+
+#contenido {
+    padding: 10px;
 }
 
 aside {
-    background: aqua;
+    background: rgba(95, 93, 93, 0.1);
+    width: 200px;
+    padding: 10px;
 }
 
 ul li a {
