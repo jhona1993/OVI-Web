@@ -83,6 +83,29 @@ section {
     background: white;
 }
 
+#videos {
+    min-height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px gray;
+    background: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#videos article {
+    padding: 20px;
+}
+
 #contenido {
     padding: 10px;
     width: 100%;
@@ -124,6 +147,19 @@ footer {
 
 .lectura h2 {
     text-align: center;
+}
+
+#wrapper-multimedia {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#principal-video {
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 3px gray;
 }
 
 @font-face {
