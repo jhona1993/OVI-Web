@@ -226,6 +226,16 @@ span {
     box-shadow: 2px 2px 3px gray;
 }
 
+#videos article {
+    width: 120px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#video1 > {
+    cursor: pointer;
+}
+
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?u0gpm6');
