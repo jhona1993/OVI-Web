@@ -40,43 +40,58 @@
             </div>
             <div class="lectura" id="lectura1">
                 <h2>MÉTODOS DE ORDENAMIENTO</h2>
-                <p>Qué son los Métodos de Ordenamiento? Los algoritmos de ordenamiento nos permiten ordenar una lista de datos para facilitar su búsqueda, el orden puede ser ascendente o descendente, estos datos pueden ser numéricos, alfabético. Los métodos
-                    de ordenamiento son útiles en la programación orientada a objetos o en cualquier código donde se almacene información. Consideramos los siguientes métodos de ordenamiento:  De la Burbuja  De la Selección  De la inserción </p>
+                <p>Qué son los Métodos de Ordenamiento? </p>
+                <p>Los algoritmos de ordenamiento nos permiten ordenar una lista de datos para facilitar su búsqueda, el orden puede ser ascendente o descendente, estos datos pueden ser numéricos, alfabético. Los métodos de ordenamiento son útiles en la
+                    programación orientada a objetos o en cualquier código donde se almacene información. Consideramos los siguientes métodos de ordenamiento: </p>
+                <p>* De la Burbuja </p>
+                <p>* De la Selección </p>
+                <p>* De la inserción </p>
                 <a class="icon-circle-up" href="#contenido">
                 </a>
             </div>
             <div class="lectura" id="lectura2">
                 <h2>MÉTODO DE LA BURBUJA</h2>
                 <p>El algoritmo permite ordenar los elementos de la lista revisando cada uno de ellos y cambiándolos de posición si es necesario, es necesario realizar varias veces el proceso hasta que la lista de datos este ordenada. El algoritmo obtiene
-                    su nombre debido a como suben los elementos por la lista durante su ordenamiento. Ejemplo ordenar los números de menor a mayor Lista: 38, 20, 8, 12, 4, 9 Comenzamos comparando el primer dato con el segundo 38 es mayor que 20 se obtiene
-                    20, 38, 8, 12, 4, 9 Ahora comparamos el segundo con el tercero 38 es mayor que 8 se obtiene 20, 8, 38, 12, 4, 9 Ahora comparamos el tercer dato con el cuarto 38 es mayor que 12 se obtiene 20, 8, 12, 38, 4, 9 Comparamos el cuarto dato
-                    con el quinto 38 es mayor que 4 se obtiene 20, 8, 12, 4, 38, 9 Comparamos el quinto dato con el sexto 38 es mayor que 9 se obtiene 20, 8, 12, 4, 9, 38 Repetimos el proceso Comparamos el primer dato con el segundo 20 es mayor que 8
-                    se obtiene 8, 20, 12, 4, 9, 38 Comparamos el segundo dato con el tercer 20 es mayor que 12 se obtiene 8, 12, 20, 4, 9, 38 Comparamos el tercer dato con el cuarto 20 es mayor que 4 se obtiene 8, 12, 4, 20, 9, 38 Comparamos el cuarto
-                    dato con el quinto 20 es mayor que 9 se obtiene 8, 12, 4, 9, 20, 38 Comparamos el primer dato con el segundo, quedan igual los datos se obtiene 8, 12, 4, 9, 20, 38 Comparamos el segundo dato con el tercero 12 es mayor que 4 se obtiene
-                    8, 4, 12, 9, 20, 38 Comparamos el tercer dato con el cuarto 12 es mayor que 9 se obtiene 8, 4, 9, 12, 20, 38 Repetimos el proceso de nuevo Comparamos el primer dato con el segundo 8 es mayor que 4 se obtiene 4, 8, 9, 12, 20, 38
-
+                    su nombre debido a como suben los elementos por la lista durante su ordenamiento.</p>
+                <p>Ejemplo ordenar los números de menor a mayor Lista:</p>
+                <p> 38, 20, 8, 12, 4, 9 Comenzamos comparando el primer dato con el segundo 38 es mayor que 20 se obtiene 20, 38, 8, 12, 4, 9 Ahora comparamos el segundo con el tercero 38 es mayor que 8 se obtiene 20, 8, 38, 12, 4, 9 Ahora comparamos el tercer
+                    dato con el cuarto 38 es mayor que 12 se obtiene 20, 8, 12, 38, 4, 9 Comparamos el cuarto dato con el quinto 38 es mayor que 4 se obtiene 20, 8, 12, 4, 38, 9 Comparamos el quinto dato con el sexto 38 es mayor que 9 se obtiene 20, 8,
+                    12, 4, 9, 38 Repetimos el proceso Comparamos el primer dato con el segundo 20 es mayor que 8 se obtiene 8, 20, 12, 4, 9, 38 Comparamos el segundo dato con el tercer 20 es mayor que 12 se obtiene 8, 12, 20, 4, 9, 38 Comparamos el tercer
+                    dato con el cuarto 20 es mayor que 4 se obtiene 8, 12, 4, 20, 9, 38 Comparamos el cuarto dato con el quinto 20 es mayor que 9 se obtiene 8, 12, 4, 9, 20, 38 Comparamos el primer dato con el segundo, quedan igual los datos se obtiene
+                    8, 12, 4, 9, 20, 38 Comparamos el segundo dato con el tercero 12 es mayor que 4 se obtiene 8, 4, 12, 9, 20, 38 Comparamos el tercer dato con el cuarto 12 es mayor que 9 se obtiene 8, 4, 9, 12, 20, 38 Repetimos el proceso de nuevo Comparamos
+                    el primer dato con el segundo 8 es mayor que 4 se obtiene 4, 8, 9, 12, 20, 38.
                 </p>
                 <a class="icon-circle-up" href="#contenido">
                 </a>
             </div>
             <div class="lectura" id="lectura3">
                 <h2>MÉTODO DE LA SELECCIÓN</h2>
-                <p>El algoritmo permite ordenar los elementos de la lista. Funciona de la siguiente manera: 1. Busca el elemento menor de la lista 2. Intercambia con el primer elemento de la lista 3. Busca el mínimo del resto de la lista 4. Intercambia con
-                    el segundo de la lista 5. Y así sucesivamente. Su implementación requiere O(n2) comparaciones e intercambios para ordenar una secuencia de elementos. Ejemplo Lista: 38, 20, 8, 12, 4, 9 Comenzamos identificando el dato menor 4 y toma
-                    la posición 1 se obtiene 4, 20, 8, 12, 38, 9 Ahora desde el 2 hasta el 6 dato identificamos el dato menor que es 8 toma la posición 2 se obtiene 4, 8, 20, 12, 38, 9 Ahora desde el 3 hasta el 6 dato identificamos el dato menor que es
-                    9 toma la posición 2 se obtiene 4, 8, 9, 12, 38, 20 Ahora desde el 5 hasta el 6 dato identificamos el dato menor que es 20 toma la posición 5 se obtiene 4, 8, 9, 12, 20, 38
-
+                <p>El algoritmo permite ordenar los elementos de la lista. Funciona de la siguiente manera: </p>
+                <p>1. Busca el elemento menor de la lista </p>
+                <p>2. Intercambia con el primer elemento de la lista </p>
+                <p>3. Busca el mínimo del resto de la lista </p>
+                <p>4. Intercambia con el segundo de la lista </p>
+                <p>5. Y así sucesivamente. </p>
+                <p>Su implementación requiere O(n2) comparaciones e intercambios para ordenar una secuencia de elementos. </p>
+                <p>Ejemplo Lista: </p>
+                <p>38, 20, 8, 12, 4, 9 Comenzamos identificando el dato menor 4 y toma la posición 1 se obtiene 4, 20, 8, 12, 38, 9 Ahora desde el 2 hasta el 6 dato identificamos el dato menor que es 8 toma la posición 2 se obtiene 4, 8, 20, 12, 38, 9 Ahora
+                    desde el 3 hasta el 6 dato identificamos el dato menor que es 9 toma la posición 2 se obtiene 4, 8, 9, 12, 38, 20 Ahora desde el 5 hasta el 6 dato identificamos el dato menor que es 20 toma la posición 5 se obtiene 4, 8, 9, 12, 20,
+                    38.
                 </p>
                 <a class="icon-circle-up" href="#contenido">
                 </a>
             </div>
             <div class="lectura" id="lectura4">
                 <h2>MÉTODO DE LA INSERCIÓN</h2>
-                <p>MEl algoritmo permite ordenar los elementos de la lista. Funciona de la siguiente manera: 1. Se compara el primer y segundo elemento de la lista el dato menor toma la primer posición 2. Se compara el tercer dato con el segundo si es menor
-                    toma la segunda posición pero si el tercer dato es menor que el primer dato toma la primer posición 3. Se compara el cuarto dato con los 3 primero datos y se ubica en la posición de orden que le corresponda 4. Y así sucesivamente Ejemplo
-                    Lista: 38, 20, 8, 12, 4, 9 Comenzamos identificando el dato entre el primer y segundo dato se obtiene 20, 38, 8, 12, 4, 9 Ahora comparamos 8 es menor que 38 y menor que 20 se obtiene 8, 20, 38, 12, 4, 9 Ahora comparamos 12 es menor
-                    que 38 y menor que 20 se obtiene 8, 12, 20, 38, 4, 9 Ahora comparamos 4 es menor que 38, 20, 12 y 8 se obtiene 4, 8, 12, 20, 38, 9 Ahora comparamos 9 es menor que 38, 20 y 12 se obtiene 4, 8, 9, 12, 20, 38
-
+                <p>El algoritmo permite ordenar los elementos de la lista. </p>
+                <p>Funciona de la siguiente manera: </p>
+                <p>1. Se compara el primer y segundo elemento de la lista el dato menor toma la primer posición </p>
+                <p>2. Se compara el tercer dato con el segundo si es menor toma la segunda posición pero si el tercer dato es menor que el primer dato toma la primer posición </p>
+                <p>3. Se compara el cuarto dato con los 3 primero datos y se ubica en la posición de orden que le corresponda </p>
+                <p>4. Y así sucesivamente </p>
+                <p>Ejemplo Lista: </p>
+                <p>38, 20, 8, 12, 4, 9 Comenzamos identificando el dato entre el primer y segundo dato se obtiene 20, 38, 8, 12, 4, 9 Ahora comparamos 8 es menor que 38 y menor que 20 se obtiene 8, 20, 38, 12, 4, 9 Ahora comparamos 12 es menor que 38 y menor
+                    que 20 se obtiene 8, 12, 20, 38, 4, 9 Ahora comparamos 4 es menor que 38, 20, 12 y 8 se obtiene 4, 8, 12, 20, 38, 9 Ahora comparamos 9 es menor que 38, 20 y 12 se obtiene 4, 8, 9, 12, 20, 38.
                 </p>
                 <a class="icon-circle-up" href="#contenido">
                 </a>
@@ -92,7 +107,8 @@
             </div>
         </div>
         <aside>
-            <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </aside>
     </section>
     <footer>
