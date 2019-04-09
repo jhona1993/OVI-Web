@@ -51,7 +51,6 @@ li {
     width: 70px;
     height: 70px;
     display: block;
-    margin: 0 auto;
     border-radius: 50%;
 }
 
@@ -129,10 +128,13 @@ aside {
     background: rgba(0, 0, 0, 0.9);
     width: 200px;
     padding: 10px;
+    max-height: 80vh;
 }
 
 .user {
     display: flex;
+    justify-content: center;
+    background: #FFFF;
 }
 
 ul li a {
@@ -165,6 +167,46 @@ footer {
 
 .lectura h2 {
     text-align: center;
+}
+
+.autores{
+    border-radius: 20px 20px 20px 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    box-shadow: -3px 3px 5px gray;
+}
+
+h3{
+    background: gray;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px 20px 0px 0px;
+    line-height: 50px;
+}
+
+h4{
+    background: gray;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px 0px 20px 20px;
+    line-height: 50px;
+}
+
+h5 {
+    text-align: center;
+}
+
+span {
+    display: block;
+    font-size: 30px;
+    color: gray;
+    font-style: bold;
+}
+
+#nombres {
+    margin: 0px 0px 0px 15px;
 }
 
 #wrapper-multimedia {
