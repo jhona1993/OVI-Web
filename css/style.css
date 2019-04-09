@@ -86,7 +86,7 @@ section {
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
-    box-shadow: -2px 4px 2px gray;
+    box-shadow: -1px 2px 4px gray;
     background: white;
 }
 
@@ -129,6 +129,7 @@ aside {
     width: 250px;
     height: 400px;
     overflow: auto;
+    margin-top: 3px;
 }
 
 .user {
