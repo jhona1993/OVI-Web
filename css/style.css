@@ -128,7 +128,7 @@ aside {
     background: rgba(0, 0, 0, 0.9);
     width: 200px;
     padding: 10px;
-    max-height: 80vh;
+    overflow: hidden;
 }
 
 .user {
@@ -169,14 +169,14 @@ footer {
     text-align: center;
 }
 
-.autores{
+.autores {
     border-radius: 20px 20px 20px 20px;
     text-align: justify;
     margin-bottom: 20px;
     box-shadow: -3px 3px 5px gray;
 }
 
-h3{
+h3 {
     background: gray;
     height: 50px;
     text-align: center;
@@ -185,7 +185,7 @@ h3{
     line-height: 50px;
 }
 
-h4{
+h4 {
     background: gray;
     height: 50px;
     text-align: center;
