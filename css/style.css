@@ -47,6 +47,14 @@ li {
     text-align: center
 }
 
+.profile {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
 #opciones ul li {
     background: rgba(0, 0, 0, 0.9);
     border-top: 2px solid transparent !important;
@@ -111,10 +119,20 @@ iframe {
     width: 100%;
 }
 
+#contenidoLectura {
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+}
+
 aside {
     background: rgba(0, 0, 0, 0.9);
     width: 200px;
     padding: 10px;
+}
+
+.user {
+    display: flex;
 }
 
 ul li a {
