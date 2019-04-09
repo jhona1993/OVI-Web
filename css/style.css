@@ -130,6 +130,8 @@ aside {
     height: 400px;
     overflow: auto;
     margin-top: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 .user {
