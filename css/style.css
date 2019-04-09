@@ -129,7 +129,7 @@ aside {
     width: 200px;
     padding: 10px;
     height: 400px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .user {
