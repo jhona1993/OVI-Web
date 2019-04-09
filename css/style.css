@@ -126,10 +126,10 @@ iframe {
 
 aside {
     background: rgba(0, 0, 0, 0.9);
-    width: 200px;
+    width: 250px;
     padding: 10px;
     height: 400px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .user {
@@ -178,7 +178,8 @@ footer {
 }
 
 h3 {
-    background: gray;
+    background: #333;
+    color: white;
     height: 50px;
     text-align: center;
     vertical-align: middle;
@@ -187,12 +188,13 @@ h3 {
 }
 
 h4 {
-    background: gray;
+    background: #333;
     height: 50px;
     text-align: center;
     vertical-align: middle;
     border-radius: 0px 0px 20px 20px;
     line-height: 50px;
+    color: greenyellow;
 }
 
 h5 {
@@ -202,8 +204,9 @@ h5 {
 span {
     display: block;
     font-size: 30px;
-    color: gray;
-    font-style: bold;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 #nombres {
