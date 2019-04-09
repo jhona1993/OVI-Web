@@ -127,10 +127,8 @@ iframe {
 aside {
     background: rgba(0, 0, 0, 0.9);
     width: 250px;
-    padding: 10px;
     height: 400px;
     overflow: auto;
-    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 .user {
