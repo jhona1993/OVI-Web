@@ -40,3 +40,9 @@ $('#video6').click(function(event) {
     $("#re-video").attr("src", href);
     console.log(href);
 });
+
+function myFunction() {
+    var iframe = document.getElementById("video1");
+    var elmnt = iframe.contentWindow.document.getElementsByTagName("HTML")[0];
+    elmnt.style.display = "none";
+}

@@ -232,10 +232,6 @@ span {
     margin: 0 auto;
 }
 
-#video1 > {
-    cursor: pointer;
-}
-
 @font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?u0gpm6');
