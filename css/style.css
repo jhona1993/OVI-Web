@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: red;
     margin: 0;
     font-family: 'Lato', sans-serif;
     background: #f1f1f1;
@@ -47,6 +47,13 @@ li {
     text-align: center
 }
 
+.profile {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 50%;
+}
+
 #opciones ul li {
     background: rgba(0, 0, 0, 0.9);
     border-top: 2px solid transparent !important;
@@ -79,7 +86,7 @@ section {
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
-    box-shadow: -2px 4px 2px gray;
+    box-shadow: -1px 2px 4px gray;
     background: white;
 }
 
@@ -111,10 +118,26 @@ iframe {
     width: 100%;
 }
 
+#contenidoLectura {
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+}
+
 aside {
     background: rgba(0, 0, 0, 0.9);
-    width: 200px;
-    padding: 10px;
+    width: 250px;
+    height: 400px;
+    overflow: auto;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    background: #FFFF;
 }
 
 ul li a {
@@ -149,6 +172,49 @@ footer {
     text-align: center;
 }
 
+.autores {
+    border-radius: 20px 20px 20px 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    box-shadow: -3px 3px 5px gray;
+}
+
+h3 {
+    background: #333;
+    color: white;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px 20px 0px 0px;
+    line-height: 50px;
+}
+
+h4 {
+    background: #333;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px 0px 20px 20px;
+    line-height: 50px;
+    color: greenyellow;
+}
+
+h5 {
+    text-align: center;
+}
+
+span {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+#nombres {
+    margin: 0px 0px 0px 15px;
+}
+
 #wrapper-multimedia {
     width: 50%;
     height: 300px;
@@ -160,6 +226,18 @@ footer {
     width: 100%;
     height: 300px;
     box-shadow: 2px 2px 3px gray;
+}
+
+#videos article {
+    width: 120px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#sfcehfpx8sdclw3caueduhee52knl9q71dz {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 @font-face {
